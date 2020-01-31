@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+.flag-dropdown{
+    display: none;
+}
+.row.borderd{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+.yellow-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(223, 125, 31);
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( -90deg, rgb(255,214,84) 0%, rgb(255,199,50) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(255,214,84) 0%, rgb(255,199,50) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(255,214,84) 0%, rgb(255,199,50) 100%);
+    width: 100%;
+    height: 59px;
+    font-family: 'Bebas Neue Bold';
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+span.button-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 36px;
+    height: 30px;
+    background-position: -170px -6px;
+
+}
+
+.sprite{background:url("../img/sprite.png") no-repeat center center;}
+
+
+
+@media (min-width:768px){.row.borderd{border:2px dashed #fff;}}
+
+input.input-3 {
+    display: block;
+    width: 100%;
+    outline: 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 41px;
+    color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 0 10px;
+    text-align: left;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.20), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.pnorm ,.pofertado{display:table;margin:0 auto;vertical-align:middle}
+
+.text-center{padding-left:0;padding-right:0}
+
+span.text{display:inline-block;height:auto;font-size:16px}
+.text{display:table;width:100%;margin:0 auto;height:20px;position:relative;float:left;font-size:21px;}
+
+label{margin-bottom:0;margin-top:5px;font-size:16px}
+.timetillde .dot{font-size:37px;line-height:73px;}
+.timetillde{display:table;margin:0 auto 10px;text-align:center}
+.timetillde .timer .num {margin-top:10px;
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight:600;
+    color:#000;
+}
+
+.bg-blue{background:#157bc4;color:#fff;}
+
+.container-fluid.bg-blue.text-center{padding-left:0;padding-right:0}
+
+big{font-size:34px}
+
+.pofertado{color:#ffe73c;font-size:19px;font-weight:700;}
+
+
+select.country_select{
+    display: block;
+    width: 100%;
+    outline: 0;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 41px;
+    color: #1f1f1f;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 0 10px;
+    text-align: left;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.20), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    height: 43px;
+    background-color: white;
+}
+form{
+width: 60%;
+    margin: 20px auto;
+ }
+option{
+    padding: 8px 5px;
+    font-size: 18px;
+}
+@media (max-width: 719px) {
+    form {
+        width: 80%;
+    }
+    .row.borderd {
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+.line3 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.line3 span{
+    color: #ffd148;
+}
+
+element.style {
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+.ord_button:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 2px 3px 3px rgb(153, 153, 153);
+    text-decoration: none ! important;
+    transform: scale(1.1);
+}
+.ord_button {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255) ! important;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 25px ! important;
+    box-shadow: 2px 3px 8px rgb(153, 153, 153);
+    text-decoration: none ! important;
+    border-radius: 8px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 20px 0px 30px;
+    line-height: 27px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in 0s;
+}
